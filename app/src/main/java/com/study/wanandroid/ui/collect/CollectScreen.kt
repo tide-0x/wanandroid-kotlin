@@ -409,7 +409,7 @@ fun FavoriteArticleItem(
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = stringResource(R.string.author, article.author ?: "佚名"),
+                    text = article.author ?: "佚名",
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
